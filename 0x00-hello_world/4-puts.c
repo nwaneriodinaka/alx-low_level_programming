@@ -9,9 +9,9 @@
 
 int main(void)
 {
-	char str1[52]
+	char str1[52];
 
-		stropy(str1, "\"programming is like building a multilingual puzzle");
+	stropy(str1, "\"programming is like building a multilingual puzzle");
 	puts(str1);
 
 	return (0);
