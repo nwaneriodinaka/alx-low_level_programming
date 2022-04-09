@@ -1,19 +1,19 @@
 #include <stdio.h>
 
 /**
- * main - Entry point
+ * main - Entry
  *
- * Return: Always 0 (Success)
+ * Return: Always 0 (Successs)
  */
+
 int main(void)
 {
-	int x, lower_x;
+	int ch;
 
-	for (x = 'A'; x <= 'Z'; x++)
-	{
-		lower_x = tolower(x);
-		putchar(lower_x);
-	}
+	for (ch = 'a'; ch <= 'z'; ch++)
+
+		putchar(ch);
 	putchar('\n');
+
 	return (0);
 }
