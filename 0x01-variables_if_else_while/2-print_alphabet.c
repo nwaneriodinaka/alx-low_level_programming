@@ -4,7 +4,7 @@
  *
  * Returm: Always 0 (Success)
  */
-int main(void)
+void main ()
 {
 	int ch;
 	for (ch= 'a'; ch<= 'z'; ch++)
