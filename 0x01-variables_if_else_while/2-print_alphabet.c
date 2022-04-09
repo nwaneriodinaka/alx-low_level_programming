@@ -4,10 +4,12 @@
  *
  * Returm: Always 0 (Success)
  */
-void lowercaseAlphabets()
+int main(void)
 {
-	int ch;
-	for (ch= 'a'; ch<= 'z'; ch++)
-		putchar(ch);
-	putchar ('\n') ;
+	for(int x = 'A'; x<= 'Z'; x++);
+	{
+		int lower_x = tolower(x);
+		putchar(lower_x);
+	}
+	return (0);
 }
