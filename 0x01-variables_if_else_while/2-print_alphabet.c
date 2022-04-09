@@ -4,7 +4,7 @@
  *
  * Returm: Always 0 (Success)
  */
-void main ()
+void lowercaseAlphabets()
 {
 	int ch;
 	for (ch= 'a'; ch<= 'z'; ch++)
