@@ -11,9 +11,9 @@ int main(void)
 {
 	int x;
 
-	for (x = 'Z'; x >== 'A'; --x)
+	for (x = 'z'; x >= 'a'; --x)
 	{
-		putchar(toloer(x));
+		putchar(x);
 	}
 	putchar('\n');
 
