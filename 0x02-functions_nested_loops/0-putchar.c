@@ -1,15 +1,26 @@
-#include <stdio.h>
-#include <unistd.h>
-
-/**
- * main - Entry
+/*
+ * File: 0-putchar.c
  *
- * Return: Always 0 (Success)
  */
 
+#include "main.h"
+
+/**
+ * main - Prints "_putchar" followed by a new line.
+ *
+ * Return: Always 0.
+ */
 int main(void)
 {
-	write(1, "_putchar", 8);
-	putchar('\n');
+	_putchar('_');
+	_putchar('p');
+	_putchar('u');
+	_putchar('t');
+	_putchar('c');
+	_putchar('h');
+	_putchar('a');
+	_putchar('r');
+	_putchar('\n');
+
 	return (0);
 }
