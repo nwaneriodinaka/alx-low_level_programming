@@ -18,24 +18,24 @@ int _strlen(const char *gtr)
 /**
  * add_node_end - add node to end of linked list
  * @head: linked list
- * @gtr: data for new node
+ * @str: data for new node
  * Return: address of new element, or NULL if failed
  */
-list_t *add_node_end(list_t **head, const char *gtr)
+list_t *add_node_end(list_t **head, const char *str)
 {
 	list_t *new_node, *temp;
 
-	if (gtr == NULL)
+	if (str == NULL)
 		return (NULL);
-	if (strdup(gtr) == NULL)
+	if (strdup(str) == NULL)
 		return (NULL);
 
 	new_node = malloc(sizeof(list_t));
 	if (new_node == NULL)
 		return (NULL);
 
-	new_node->gtr = strdup(gtr);
-	new_node->len = _strlen(gtr);
+	new_node->str = strdup(str);
+	new_node->len = _strlen(str);
 	new_node->next = NULL;
 
 	if (*head == NULL)
